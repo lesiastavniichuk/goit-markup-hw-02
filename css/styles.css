@@ -1,5 +1,14 @@
 :root{
   --primary-link-color:#2196F3;
+  --second-link-color:#757575;
+}
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .link{
   text-decoration: none;
@@ -10,28 +19,26 @@
 .list{
   list-style: none;
 }
+.btn{
+  font-family: 'Roboto'sans-serif;
+  color: #212121;
+}
+.btn:hover,
+.btn:focus{
+  color: #FFFFFF;
+ background-color: #2196F3;
+}
 
 /*------HEADER------ */
+
 .header {
   background-color: #ECECEC;
 }
 .firstpartlogo {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
 color: #2196F3;
 }
 
 .secondtpartlogo {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
 color: #000000;
 }
 .list{
@@ -62,7 +69,7 @@ color: #000000;
 
 /*------HERO------ */
 .hero {
-  background-color: #2f303a;
+background-color: #2f303a;
 }
 .title{
 font-size: 44px;
@@ -80,16 +87,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-}
-.hero-btn{
-  background-color: #2196F3;
 }
 
 /*------FEATURE------ */
 
 .feature{
-font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -101,10 +103,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color:var(--second-link-color);
 }
 
 /*------DEVELOPMENT------ */
+
 .development{
 font-weight: 700;
 font-size: 36px;
@@ -130,7 +133,33 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-link-color);
+}
+
+/* --------------------------- OUR WORKS------------------------- */
+
+.btn-work{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.work-title{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.work-text{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.89;
+letter-spacing: 0.03em;
+color: var(--second-link-color);
 }
 
 /*------FOOTER------ */
@@ -139,27 +168,13 @@ color: #757575;
   background-color: #2F303A;
 }
 .firstpartlogofooter {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #2196F3;
   }
-  
   .secondtpartlogofooter {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #FFFFFF;
   }
   .contactfooter{
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
