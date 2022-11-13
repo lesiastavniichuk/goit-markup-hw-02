@@ -1,6 +1,13 @@
 :root{
   --primary-link-color:#2196F3;
   --second-link-color:#757575;
+  --foncolor:#2F303A;
+  --accent-color:#FFFFFF;
+}
+.body{
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
+  color: #212121;
 }
 .logo{
   font-family: 'Raleway', sans-serif;
@@ -12,10 +19,6 @@
 .link{
   text-decoration: none;
 }
-.body{
-  font-family:'Roboto', sans-serif;
-  color: #212121;
-}
 .list{
   list-style: none;
 }
@@ -26,8 +29,8 @@
 }
 .btn:hover,
 .btn:focus{
-  color: #FFFFFF;
- background-color: #2196F3;
+  color: var(--accent-color);
+ background-color: var(--primary-link-color);
 }
 
 /*------HEADER------ */
@@ -36,7 +39,7 @@
   background-color: #ECECEC;
 }
 .firstpartlogo {
-color: #2196F3;
+color: var(--primary-link-color);
 }
 
 .secondtpartlogo {
@@ -54,7 +57,7 @@ color: #000000;
 }
 .header-link:hover,
 .header-link:focus{
-  color: #2196F3
+  color: var(--primary-link-color);
 }
 .header-tel-mail{
   font-weight: 500;
@@ -65,12 +68,12 @@ color: #000000;
 }
 .header-tel-mail:hover,
 .header-tel-mail:focus{
-  color: #2196F3
+  color: var(--primary-link-color)
 }
 
 /*------HERO------ */
 .hero {
-background-color: #2f303a;
+background-color: var(--foncolor);
 }
 .title{
 font-size: 44px;
@@ -78,7 +81,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--accent-color);
 }
 .hero-btn{
 font-weight: 700;
@@ -163,13 +166,13 @@ color: var(--second-link-color);
 /*------FOOTER------ */
 
 .footer{
-  background-color: #2F303A;
+  background-color:var(--foncolor);
 }
 .firstpartlogofooter {
-  color: #2196F3;
+  color: var(--primary-link-color);
   }
   .secondtpartlogofooter {
-  color: #FFFFFF;
+  color: var(--accent-color);
   }
   .contactfooter{
 font-family: 'Roboto', sans-serif;
@@ -177,6 +180,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--accent-color);
   }
 
