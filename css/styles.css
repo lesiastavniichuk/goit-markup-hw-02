@@ -27,6 +27,7 @@
   cursor: pointer;
   color: #212121;
 }
+
 .btn:hover,
 .btn:focus{
   color: var(--accent-color);
@@ -54,6 +55,9 @@ color: #000000;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.link-curreent{
+  color: var(--primary-link-color);
 }
 .header-link:hover,
 .header-link:focus{
